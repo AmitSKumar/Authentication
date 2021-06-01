@@ -42,6 +42,7 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.render("login")
 })
+//updated code
 app.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/');
